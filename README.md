@@ -23,7 +23,7 @@ Application is based on the Ruby OOP: school library projects 1, 2 and 3.
 
 ### 3- Run the project
 
-- cd into the directory and checkout `feature/addBasicUI` branch then,
+- cd into `oop-CR-training/example_school_library_decorator` directory and checkout `feature/addBasicUI` branch then,
 - Run `ruby main.rb` to start the bot.
 - Then chose from the list of options displayed.
 
