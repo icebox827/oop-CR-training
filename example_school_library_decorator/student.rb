@@ -1,4 +1,5 @@
 require './person'
+require './classroom'
 
 class Student < Person
   attr_reader :classroom
@@ -9,7 +10,6 @@ class Student < Person
     @name = name
     @age = age
     @parent_permission = parent_permission
-    # classroom.students << self
   end
 
   def classroom=(classroom)

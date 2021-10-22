@@ -9,7 +9,6 @@ class Person
     @corrector = Corrector.new
     @age = age
     @name = name
-    # @parent_permission = parent_permission
     @rentals = []
   end
 

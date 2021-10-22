@@ -8,6 +8,3 @@ class Book
     @rentals = []
   end
 end
-
-new_book = Book.new("The programmer", "Julius")
-p new_book 
