@@ -1,3 +1,5 @@
+# rubocop:disable Metrics/CyclomaticComplexity
+
 require './student'
 require './teacher'
 require './book'
@@ -22,6 +24,7 @@ class App
     end
   end
 
+  # rubocop:disable Metrics/MethodLength
   def create_person
     print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
     person_type = gets.chomp
@@ -29,7 +32,6 @@ class App
       puts 'Invalid option'
       return
     end
-
     print 'Age: '
     age = gets.chomp
 
@@ -54,6 +56,7 @@ class App
     @people << person
     puts 'Person created successfully'
   end
+  # rubocop:enable Metrics/MethodLength
 
   def create_book
     print 'Title: '
@@ -100,8 +103,11 @@ class App
       puts "Date: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author}"
     end
   end
+
+  def welcome; end
 end
 
+# rubocop:disable Metrics/MethodLength
 def main
   app = App.new
 
@@ -141,5 +147,7 @@ def main
     puts "\n"
   end
 end
+# rubocop:enable Metrics/MethodLength
 
 main
+# rubocop:enable Metrics/CyclomaticComplexity
