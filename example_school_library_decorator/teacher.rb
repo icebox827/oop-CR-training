@@ -10,3 +10,7 @@ class Teacher < Person
     true
   end
 end
+
+puts "What is your name?"
+name = gets.chomp
+puts "Welcome #{name}"
