@@ -1,9 +1,5 @@
 # rubocop:disable Metrics/CyclomaticComplexity
 
-require './student'
-require './teacher'
-require './book'
-require './rental'
 require './app'
 
 # rubocop:disable Metrics/MethodLength
