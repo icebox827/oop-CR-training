@@ -1,8 +1,8 @@
 # curriculum-cr-training-oop
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+This repo host code for the tasks performed during the Code Reviewers training.
 
-Application is based on the Ruby OOP: school library projects 1 and 2.
+Application is based on the Ruby OOP: school library projects 1, 2 and 3.
 
 ## Getting started
 
@@ -23,8 +23,9 @@ Application is based on the Ruby OOP: school library projects 1 and 2.
 
 ### 3- Run the project
 
-- Run `ruby bin/main.rb` to start the bot.
-- Open the link to the bot that you've got from the Botfather.
+- cd into the directory and checkout `feature/addBasicUI` branch then,
+- Run `ruby main.rb` to start the bot.
+- Then chose from the list of options displayed.
 
 ## Built With
 
@@ -33,13 +34,20 @@ Application is based on the Ruby OOP: school library projects 1 and 2.
 - Rspec
 - VsCode
 
-## Author
+## Authors
 
 👤 **Denis Lafontant**
 
 - GitHub: [@icebox827](https://github.com/icebox827)
 - Twitter: [@heracles2k5](https://twitter.com/@heracles2k5)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/denis-lafontant-37031439/)
+
+👤 **Mih Julius**
+
+- Github: [@Mihndim2020](https://github.com/Mihndim2020)
+- Twitter: [@mihndim](https://github.com/mih-julius)
+- Linkedin: [Mih Julius](https://www.linkedin.com/mih-julius)
+
 
 ## 🤝 Contributing
 
@@ -54,3 +62,7 @@ Give a ⭐️ if you like this project!
 ### Acknowledgements
 
 - Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
