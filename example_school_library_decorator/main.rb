@@ -55,6 +55,22 @@ class App
     puts "Person created successfully"
   end
 
+   # *Create a book.
+   def create_book
+    print "Title: "
+    # *If needed, ask for parameters for the option.
+    title = gets.chomp
+
+    print "Author: "
+    # *If needed, ask for parameters for the option.
+    author = gets.chomp
+
+    @books << Book.new(title, author)
+    puts "Book created successfully"
+  end
+  
+
+
 
 
 
