@@ -42,7 +42,9 @@ def main
     puts "\n"
   end
 end
-# rubocop:enable Metrics/MethodLength
+# rubocop:enable Metrics/MethodLength,
 
+# rubocop:disable Style/MethodCallWithoutArgsParentheses
 main()
+# rubocop: enable Style/MethodCallWithoutArgsParentheses
 # rubocop:enable Metrics/CyclomaticComplexity
