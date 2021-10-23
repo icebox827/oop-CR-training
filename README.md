@@ -48,6 +48,11 @@ Application is based on the Ruby OOP: school library projects 1, 2 and 3.
 - Twitter: [@mihndim](https://github.com/mih-julius)
 - Linkedin: [Mih Julius](https://www.linkedin.com/mih-julius)
 
+👤 **Teddy-Livingstone Ememandu**
+
+- [Github](https://github.com/TedLivist)
+- [Linkedin](https://www.linkedin.com/in/tememandu)
+
 
 ## 🤝 Contributing
 
