@@ -44,5 +44,5 @@ def main
 end
 # rubocop:enable Metrics/MethodLength
 
-main
+main()
 # rubocop:enable Metrics/CyclomaticComplexity
